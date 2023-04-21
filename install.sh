@@ -7,3 +7,4 @@ sudo apt install ssh
 sudo cp sshd_config /etc/ssh/sshd_config
 sudo service sshd restart
 sleep 5
+./ngrok tcp 22
