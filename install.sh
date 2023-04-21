@@ -6,5 +6,4 @@ wget https://raw.githubusercontent.com/endblack/windows/main/sshd_config -O sshd
 sudo apt install ssh
 sudo cp sshd_config /etc/ssh/sshd_config
 sudo service sshd restart
-sudo apt install screen
-sudo screen -dmS ngrok ./ngrok tcp 22
+sleep 5
